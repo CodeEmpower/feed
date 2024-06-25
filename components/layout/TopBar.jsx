@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Add, Person, Search } from "@mui/icons-material";
+import { Add, Logout, Person, Search } from "@mui/icons-material";
 import { useRouter } from "next/navigation";
-import { UserButton, useUser } from "@clerk/nextjs";
+import { SignOutButton, SignedIn, UserButton, useUser } from "@clerk/nextjs";
 import Link from "next/link";
+import Image from "next/image";
 import { dark } from "@clerk/themes";
 import Loader from "@components/Loader";
 
