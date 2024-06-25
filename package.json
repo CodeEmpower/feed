@@ -15,6 +15,7 @@
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.20",
     "@mui/material": "^5.15.20",
+    "build": "^0.1.4",
     "mongodb": "^4.17.2",
     "mongoose": "^8.0.3",
     "next": "^14.2.4",
