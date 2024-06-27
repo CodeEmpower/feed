@@ -48,7 +48,7 @@ const TopBar = () => {
         <input
           type="text"
           className="search-bar"
-          placeholder="Search posts, people, ..."
+          placeholder="Search..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
